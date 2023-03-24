@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="Ação a ser executada">
+
+        <fieldset>
+            <legend>Produto</legend>
+            <br>
+            <label for="produto">Produto:</label>
+            <input id="produto" name="emproduto" type="text">
+            <br>
+            <br>
+            <label for="data">Data de cadastro:</label>
+            <input id="data" name="emdata" type="date">
+            <br>
+            <br>
+            <label for="peso">Peso:</label>
+            <input id="peso" name="peso" type="text">
+            <br>
+            <br>
+            <label for="categoria">Categoria:</label>
+            <select name="emcategoria" id="categoria">
+                <option value="N">Selecionar Categoria</option>
+                <option value="E">Eletrodomésticos</option>
+                <option value="S">Smartphones</option>
+                <option value="U">Utilidades</option>
+            </select>
+            <br>
+            <br>
+            <label for="categoria">Tipo:</label>
+            <br>
+            <input type="radio" id="novo" name="rtip">
+            <label for="novo">Novo</label>
+            <br>
+            <input type="radio" id="usado" name="rtip">
+            <label for="usado">Usado</label>
+            <br>
+            <br>
+            <label for="desc">Descrição:</label>
+            <br>
+            <textarea name="desc" id="desc" cols="50" rows="20"></textarea>
+            <br>
+            <label></label>
+            <br>
+            <label class="rating-label">
+                Avaliação
+                <input
+                  class="rating"
+                  max="5"
+                  oninput="this.style.setProperty('--value', this.value)"
+                  step="1"
+                  type="range"
+                  value="1">
+            <br>
+            <br>
+            <input type="submit" value="ENTRAR">  
+            <input type="reset" value="LIMPAR">  
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>
+</body>
+</html>
